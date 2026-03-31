@@ -1,3 +1,13 @@
 body{
-    background-color: blue;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.Player{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
 }
