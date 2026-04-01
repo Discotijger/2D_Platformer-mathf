@@ -5,11 +5,11 @@ body{
 }
 
 .Floor{
-    width: auto;
+    background-color: #333;
     height: 100px;
-    background-color: black;
-    position: absolute;
-    bottom: 100;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .Player{
@@ -17,4 +17,5 @@ body{
     width: auto;
     position: absolute;
     bottom: 300px;
+    left: 100px;
 }
