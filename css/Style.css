@@ -4,10 +4,17 @@ body{
     padding: 0;
 }
 
+.Floor{
+    width: auto;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 100;
+}
+
 .Player{
     height: 100px;
     width: auto;
     position: absolute;
     bottom: 300px;
-    left: 300px;
 }
