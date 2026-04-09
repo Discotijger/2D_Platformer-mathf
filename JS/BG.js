@@ -32,5 +32,3 @@ function drawBackground() {
     ctx.fillStyle = "#228B22";
     ctx.fillRect(0, groundY + 64, canvas.width, 20);
 }
-
-drawBackground();

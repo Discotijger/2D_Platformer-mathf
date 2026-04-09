@@ -82,6 +82,7 @@ function checkPlatformCollision() {
 function gameLoop() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
     
+  drawBackground();
   drawPlatforms();
 
   // Pick animation row based on movement
