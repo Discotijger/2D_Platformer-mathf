@@ -2,6 +2,13 @@ body{
     background-color: lightblue;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+#game {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .Floor{
@@ -13,9 +20,17 @@ body{
 }
 
 .Player{
-    height: 100px;
+    height: 80px;
     width: auto;
     position: absolute;
-    bottom: 300px;
     left: 100px;
+}
+
+.platform{
+    background-color: black;
+    height: 20px;
+    width: 120px;
+    position: fixed;
+    bottom: 200px;
+    left: 300px;
 }
