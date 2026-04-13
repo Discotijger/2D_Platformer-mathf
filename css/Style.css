@@ -12,8 +12,8 @@ body{
 }
 
 .Floor{
-    background-color: #333;
-    height: 100px;
+    background-color: #372000;
+    height: 80px;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -24,13 +24,4 @@ body{
     width: auto;
     position: absolute;
     left: 100px;
-}
-
-.platform{
-    background-color: black;
-    height: 20px;
-    width: 120px;
-    position: fixed;
-    bottom: 200px;
-    left: 300px;
 }
