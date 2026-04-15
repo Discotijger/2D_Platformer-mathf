@@ -27,6 +27,11 @@ let movingL = false;
 let isJumping = false;
 let facingLeft = false;
 
+// --- Stats ---
+let _Health = 100;
+let _Shield = 50;
+const _Agility = 5;
+
 // sprite.src = "Assets/Sprite-Player.png";
 sprite.src = "Assets/Sprite.png";
 
@@ -202,3 +207,4 @@ function Movement() {
 }
 
 Movement();
+
